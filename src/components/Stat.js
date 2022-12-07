@@ -1,6 +1,9 @@
+import { Title } from "./Title";
+
 export function Stat() {
   return (
-    <div class='max-w-screen-lg px-4 md:px-8 mx-auto lg:mb-32'>
+    <div class='max-w-screen-lg px-4 md:px-8 mx-auto lg:my-32'>
+      <Title anchor='chiffre'>Quelques chiffres</Title>
       <div class='mb-8 md:mb-12'>
         <p class='max-w-screen-md text-gray-500 md:text-lg text-center mx-auto'>
           En France, nous apportons énormément d'attention aux animaux de

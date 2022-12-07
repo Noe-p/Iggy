@@ -22,12 +22,6 @@ export function Header() {
                 Fonctionnalités
               </a>
               <a
-                href='/#about'
-                class='text-gray-600 hover:text-iggy-green active:text-iggy-green text-lg font-semibold transition duration-100'
-              >
-                À propos
-              </a>
-              <a
                 href='#chiffre'
                 class='text-gray-600 hover:text-iggy-green active:text-iggy-green text-lg font-semibold transition duration-100'
               >

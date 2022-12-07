@@ -23,7 +23,7 @@ export function Mockup3() {
               Our competitive advantage
             </h1>
 
-            <p class='text-gray-500 sm:text-lg mb-6 md:mb-8'>
+            <p class='text-gray-500 sm:text-lg mb-6 md:mb-8 text-left'>
               This is a section of some simple filler text, also known as
               placeholder text. It shares some characteristics of a real written
               text but is random or otherwise generated. It may be used to

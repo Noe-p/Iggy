@@ -24,24 +24,7 @@ function App() {
     <div className='App'>
       <Header />
       <Title anchor='feature'>Fonctionnalités</Title>
-      <Swiper
-        modules={[Navigation, Pagination]}
-        pagination={{ clickable: true }}
-        className='w-3/4'
-        spaceBetween={10}
-        slidesPerView={1}
-        navigation
-      >
-        <SwiperSlide>
-          <Mockup1 />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Mockup2 />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Mockup3 />
-        </SwiperSlide>
-      </Swiper>
+      <Mockup1 />
       {/*<Mockup2 />
        <Mockup3 />
       <CallToAction />
@@ -53,13 +36,9 @@ function App() {
           </h2>
         </div>
       </div>
-      <About1 />*/}
-      <Title anchor='about'>À propos</Title>
-      <About2 />
-      <Title anchor='chiffre'>Quelques chiffres</Title>
+      */}
+      
       <Stat />
-      <Title anchor='avis'>Les problèmes de nos interviewés</Title>
-
       <Testimonials />
       <Sidetab
         id='LCa7UPQJ'
