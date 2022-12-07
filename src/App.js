@@ -1,8 +1,13 @@
-import { Sidetab } from '@typeform/embed-react';
-import { Widget } from '@typeform/embed-react'
+import { Sidetab, Widget } from '@typeform/embed-react';
+import 'swiper/css';
+
+import { Navigation, Pagination } from 'swiper';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
 import './App.css';
 import {
-  About1,
   About2,
   Footer,
   Header,
@@ -11,20 +16,32 @@ import {
   Mockup3,
   Stat,
   Testimonials,
+  Title,
 } from './components';
 
 function App() {
   return (
     <div className='App'>
       <Header />
-      <div class='bg-white py-6 sm:py-8 lg:pt-32 lg:pb-0'>
-        <div class='max-w-screen-2xl px-4 md:px-8 mx-auto'>
-          <h2 class='text-gray-800 text-2xl lg:text-5xl font-bold mb-4 md:mb-6 font-gilroy' id="funcs">
-            Fonctionnalités
-          </h2>
-        </div>
-      </div>
-      <Mockup1 />
+      <Title anchor='feature'>Fonctionnalités</Title>
+      <Swiper
+        modules={[Navigation, Pagination]}
+        pagination={{ clickable: true }}
+        className='w-3/4'
+        spaceBetween={10}
+        slidesPerView={1}
+        navigation
+      >
+        <SwiperSlide>
+          <Mockup1 />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Mockup2 />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Mockup3 />
+        </SwiperSlide>
+      </Swiper>
       {/*<Mockup2 />
        <Mockup3 />
       <CallToAction />
@@ -36,9 +53,13 @@ function App() {
           </h2>
         </div>
       </div>
-      <About1 />
-      <About2 /> */}
+      <About1 />*/}
+      <Title anchor='about'>À propos</Title>
+      <About2 />
+      <Title anchor='chiffre'>Quelques chiffres</Title>
       <Stat />
+      <Title anchor='avis'>Les problèmes de nos interviewés</Title>
+
       <Testimonials />
       <Sidetab
         id='LCa7UPQJ'

@@ -5,7 +5,7 @@ export function Header() {
     <div className='App'>
       <div class='bg-white pb-6 sm:pb-8 lg:pb-12'>
         <div class='max-w-screen-2xl px-4 md:px-8 mx-auto'>
-          <header class='flex justify-between items-center border-b py-4 md:py-8 mb-8 md:mb-12 xl:mb-16'>
+          <header class='flex sticky w-full top-0bg-white justify-between items-center border-b py-4 md:py-8 mb-8 md:mb-12 xl:mb-16'>
             <a
               href='/'
               class='inline-flex items-center text-black-800 text-2xl md:text-3xl font-bold gap-2.5'
@@ -15,41 +15,38 @@ export function Header() {
             </a>
 
             <nav class='hidden lg:flex gap-12'>
-              <a href='#' class='text-iggy-green text-lg font-semibold'>
-                Home
-              </a>
               <a
-                href='#'
+                href='/#feature'
                 class='text-gray-600 hover:text-iggy-green active:text-iggy-green text-lg font-semibold transition duration-100'
               >
                 Fonctionnalités
               </a>
               <a
-                href='#'
+                href='/#about'
                 class='text-gray-600 hover:text-iggy-green active:text-iggy-green text-lg font-semibold transition duration-100'
               >
                 À propos
               </a>
               <a
-                href='#'
+                href='#chiffre'
                 class='text-gray-600 hover:text-iggy-green active:text-iggy-green text-lg font-semibold transition duration-100'
               >
                 Les chiffres
               </a>
               <a
-                href='#'
+                href='#avis'
                 class='text-gray-600 hover:text-iggy-green active:text-iggy-green text-lg font-semibold transition duration-100'
               >
                 Les avis
               </a>
             </nav>
 
-            <a
+            {/* <a
               href='#'
               class='hidden lg:inline-block bg-gray-200 hover:bg-gray-300 focus-visible:ring ring-indigo-300 text-gray-500 active:text-gray-700 text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-8 py-3'
             >
               Nous contacter
-            </a>
+            </a> */}
 
             <button
               type='button'
@@ -76,13 +73,14 @@ export function Header() {
               <div></div>
 
               <div class='sm:text-center lg:text-left lg:py-12 xl:py-24'>
-
                 <h1 class='text-gray-800 text-4xl sm:text-5xl md:text-6xl font-bold mb-4 md:mb-6 font-gilroy'>
                   Deviens son meilleur ami !
                 </h1>
 
                 <p class='text-gray-500 md:text-lg xl:text-xl font-semibold mb-4 md:mb-6'>
-                Accompagnez et responsabilisez votre enfant au bien-être et à la santé de votre animal de compagnie grâce à un suivi quotidien personnalisé via une application ludique !
+                  Accompagnez et responsabilisez votre enfant au bien-être et à
+                  la santé de votre animal de compagnie grâce à un suivi
+                  quotidien personnalisé via une application ludique !
                 </p>
 
                 <div class='flex flex-col sm:flex-row sm:justify-center lg:justify-start gap-2.5'>
@@ -96,7 +94,10 @@ export function Header() {
               </div>
             </div>
 
-            <iframe src="https://embed.lottiefiles.com/animation/6732" class='w-1/2 align-center'></iframe>
+            <iframe
+              src='https://embed.lottiefiles.com/animation/6732'
+              class='w-1/2 align-center'
+            ></iframe>
           </section>
         </div>
       </div>

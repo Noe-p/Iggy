@@ -1,15 +1,15 @@
 export function Mockup1() {
   return (
-    <div class='bg-white py-6 sm:py-8 lg:py-12 mb-24'>
-      <div class='max-w-screen-xl px-4 md:px-8 mx-auto'>
+    <div class=' bg-white py-6 sm:py-8'>
+      <div class=' px-4 md:px-8 mx-auto'>
         <div class='grid md:grid-cols-2 gap-8 lg:gap-12'>
           <div>
-            <div class='h-32 md:h-auto bg-gray-100 overflow-hidden rounded-lg shadow-lg'>
+            <div className='h-32 overflow-hidden bg-gray-100 rounded-lg shadow-lg md:h-auto'>
               <img
                 src='https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=600&h=750'
                 loading='lazy'
                 alt='Photo by Martin Sanchez'
-                class='w-full h-full object-cover object-center'
+                class='object-cover object-center w-full h-full'
               />
             </div>
           </div>

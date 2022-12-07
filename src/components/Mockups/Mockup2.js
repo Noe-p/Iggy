@@ -1,7 +1,7 @@
 export function Mockup2() {
   return (
-    <div class='bg-white py-6 sm:py-8 lg:py-12'>
-      <div class='max-w-screen-xl px-4 md:px-8 mx-auto'>
+    <div class='bg-white py-6 sm:py-8'>
+      <div class=' px-4 md:px-8 mx-auto'>
         <div class='grid md:grid-cols-2 gap-8 lg:gap-12'>
           <div class='md:pt-8'>
             <p class='text-iggy-green font-bold text-center md:text-left'>

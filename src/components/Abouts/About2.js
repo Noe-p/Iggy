@@ -1,6 +1,6 @@
 export function About2() {
   return (
-    <div class='bg-white py-6 sm:py-8 lg:py-12'>
+    <div class='bg-white py-6 sm:py-8 lg:pt-12 lg:mb-32'>
       <div class='max-w-screen-xl px-4 md:px-8 mx-auto'>
         <div class='grid md:grid-cols-2 gap-8 lg:gap-12'>
           <div class='md:pt-8'>
