@@ -1,16 +1,15 @@
 export function Testimonials() {
   return (
-    <div class='bg-white py-6 sm:py-8 lg:py-12'>
+    <div class='bg-white py-6 sm:py-8 lg:py-12 my-24'>
       <div class='max-w-screen-xl px-4 md:px-8 mx-auto'>
-        <h2 class='text-gray-800 text-2xl lg:text-3xl font-bold text-center mb-8 md:mb-12'>
-          What others say about us
+        <h2 class='text-gray-800 text-2xl lg:text-3xl font-bold text-center mb-8 md:mb-12 font-gilroy'>
+          Les problèmes de nos interviewés
         </h2>
 
         <div class='grid sm:grid-cols-2 lg:grid-cols-3 gap-y-10 sm:gap-y-12 lg:divide-x'>
           <div class='flex flex-col items-center gap-4 md:gap-6 sm:px-4 lg:px-8'>
             <div class='text-gray-600 text-center'>
-              “This is a section of some simple filler text, also known as
-              placeholder text.”
+              “Mon fils a 8 ans, il adore notre chien mais je ne peux pas encore lui confier certaines tâches”
             </div>
 
             <div class='flex flex-col sm:flex-row items-center gap-2 md:gap-3'>

@@ -108,7 +108,7 @@ export function Footer() {
         </div>
 
         <div class='text-gray-400 text-sm text-center py-8'>
-          © 2021 - Present Flowrift. All rights reserved.
+          © 2022 - Iggy App. Tous droits réservés.
         </div>
       </footer>
     </div>
