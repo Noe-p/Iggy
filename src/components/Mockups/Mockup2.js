@@ -4,35 +4,23 @@ export function Mockup2() {
       <div class='max-w-screen-xl px-4 md:px-8 mx-auto'>
         <div class='grid md:grid-cols-2 gap-8 lg:gap-12'>
           <div class='md:pt-8'>
-            <p class='text-indigo-500 font-bold text-center md:text-left'>
-              Mockup2
+            <p class='text-iggy-green font-bold text-center md:text-left'>
+              Fonctionnalité
             </p>
 
             <h1 class='text-gray-800 text-2xl sm:text-3xl font-bold text-center md:text-left mb-4 md:mb-6'>
-              Our competitive advantage
+              Intégrez des tâches récurrentes
             </h1>
 
             <p class='text-gray-500 sm:text-lg mb-6 md:mb-8'>
-              This is a section of some simple filler text, also known as
-              placeholder text. It shares some characteristics of a real written
-              text but is random or otherwise generated. It may be used to
-              display a sample of fonts or generate text for testing. Filler
-              text is dummy text which has no meaning however looks very similar
-              to real text.
-              <br />
-              <br />
-              This is a section of some simple filler text, also known as
-              placeholder text. It shares some characteristics of a real written
-              text but is{' '}
-              <a
-                href='#'
-                class='text-indigo-500 hover:text-indigo-600 active:text-indigo-700 underline transition duration-100'
-              >
-                random
-              </a>{' '}
-              or otherwise generated. It may be used to display a sample of
-              fonts or generate text for testing. Filler text is dummy text
-              which has no meaning however looks very similar to real text.
+              L’application vous permet de sélectionner vous même, les tâches
+              que vous souhaitez délégués à votre enfant. Nous vous suggérons
+              déjà des tâches pour rendre heureux votre compagnon, puis à vous
+              de les sélectionner et de les personnaliser en ajoutant une
+              récurrence. Vous pouvez également créer une tâche ponctuelle où
+              c’est vous qui décidez de ce que vous souhaitez mettre en place
+              auprès de votre ado. Ces tâches permettront de mettre en place une
+              routine et un lien entre votre animal et votre adolescent.
             </p>
           </div>
           <div>

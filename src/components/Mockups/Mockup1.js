@@ -15,35 +15,19 @@ export function Mockup1() {
           </div>
 
           <div class='md:pt-8'>
-            <p class='text-indigo-500 font-bold text-center md:text-left'>
-              Mockup1
+            <p class='text-iggy-green font-bold text-center md:text-left'>
+              Fonctionnalité
             </p>
 
             <h1 class='text-gray-800 text-2xl sm:text-3xl font-bold text-center md:text-left mb-4 md:mb-6'>
-              Our competitive advantage
+              Ajoutez votre animal
             </h1>
 
             <p class='text-gray-500 sm:text-lg mb-6 md:mb-8'>
-              This is a section of some simple filler text, also known as
-              placeholder text. It shares some characteristics of a real written
-              text but is random or otherwise generated. It may be used to
-              display a sample of fonts or generate text for testing. Filler
-              text is dummy text which has no meaning however looks very similar
-              to real text.
-              <br />
-              <br />
-              This is a section of some simple filler text, also known as
-              placeholder text. It shares some characteristics of a real written
-              text but is{' '}
-              <a
-                href='#'
-                class='text-indigo-500 hover:text-indigo-600 active:text-indigo-700 underline transition duration-100'
-              >
-                random
-              </a>{' '}
-              or otherwise generated. It may be used to display a sample of
-              fonts or generate text for testing. Filler text is dummy text
-              which has no meaning however looks very similar to real text.
+              Afin de personnaliser au mieux votre expérience sur l’application,
+              il vous faudra rentrer vos animaux sur l’application. Quelques
+              données tels que son petit nom, sa date de naissance, sa race et
+              son sexe vous sera deemandé.
             </p>
           </div>
         </div>

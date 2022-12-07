@@ -15,30 +15,30 @@ export function Header() {
             </a>
 
             <nav class='hidden lg:flex gap-12'>
-              <a href='#' class='text-indigo-500 text-lg font-semibold'>
+              <a href='#' class='text-iggy-green text-lg font-semibold'>
                 Home
               </a>
               <a
                 href='#'
-                class='text-gray-600 hover:text-indigo-500 active:text-indigo-700 text-lg font-semibold transition duration-100'
+                class='text-gray-600 hover:text-iggy-green active:text-iggy-green text-lg font-semibold transition duration-100'
               >
                 Fonctionnalités
               </a>
               <a
                 href='#'
-                class='text-gray-600 hover:text-indigo-500 active:text-indigo-700 text-lg font-semibold transition duration-100'
+                class='text-gray-600 hover:text-iggy-green active:text-iggy-green text-lg font-semibold transition duration-100'
               >
                 À propos
               </a>
               <a
                 href='#'
-                class='text-gray-600 hover:text-indigo-500 active:text-indigo-700 text-lg font-semibold transition duration-100'
+                class='text-gray-600 hover:text-iggy-green active:text-iggy-green text-lg font-semibold transition duration-100'
               >
                 Les chiffres
               </a>
               <a
                 href='#'
-                class='text-gray-600 hover:text-indigo-500 active:text-indigo-700 text-lg font-semibold transition duration-100'
+                class='text-gray-600 hover:text-iggy-green active:text-iggy-green text-lg font-semibold transition duration-100'
               >
                 Les avis
               </a>
@@ -76,18 +76,18 @@ export function Header() {
               <div></div>
 
               <div class='sm:text-center lg:text-left lg:py-12 xl:py-24'>
-                <p class='text-indigo-500 md:text-lg xl:text-xl font-semibold mb-4 md:mb-6'>
-                  Very proud to introduce
+                <p class='text-iggy-green md:text-lg xl:text-xl font-semibold mb-4 md:mb-6'>
+                  Iggy
                 </p>
 
                 <h1 class='text-black-800 text-4xl sm:text-5xl md:text-6xl font-bold mb-8 md:mb-12'>
-                  Revolutionary way to build the web
+                  Deviens son meilleur ami !
                 </h1>
 
                 <div class='flex flex-col sm:flex-row sm:justify-center lg:justify-start gap-2.5'>
                   <a
                     href='#'
-                    class='inline-block bg-indigo-500 hover:bg-indigo-600 active:bg-indigo-700 focus-visible:ring ring-indigo-300 text-white text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-8 py-3'
+                    class='inline-block bg-iggy-green hover:bg-iggy-green active:bg-iggy-green focus-visible:ring ring-indigo-300 text-white text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-8 py-3'
                   >
                     Start now
                   </a>

@@ -15,7 +15,7 @@ export function Mockup1() {
           </div>
 
           <div class='md:pt-8'>
-            <p class='text-indigo-500 font-bold text-center md:text-left'>
+            <p class='bg-iggy-green font-bold text-center md:text-left'>
               Who we are
             </p>
 
@@ -37,7 +37,7 @@ export function Mockup1() {
               text but is{' '}
               <a
                 href='#'
-                class='text-indigo-500 hover:text-indigo-600 active:text-indigo-700 underline transition duration-100'
+                class='bg-iggy-green hover:bg-iggy-green active:bg-iggy-green underline transition duration-100'
               >
                 random
               </a>{' '}

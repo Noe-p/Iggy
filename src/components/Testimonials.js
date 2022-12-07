@@ -24,7 +24,7 @@ export function Testimonials() {
               </div>
 
               <div>
-                <div class='text-indigo-500 text-sm md:text-base font-bold text-center sm:text-left'>
+                <div class='text-iggy-green text-sm md:text-base font-bold text-center sm:text-left'>
                   John McCulling
                 </div>
                 <p class='text-gray-500 text-sm md:text-sm text-center sm:text-left'>
@@ -51,7 +51,7 @@ export function Testimonials() {
               </div>
 
               <div>
-                <div class='text-indigo-500 text-sm md:text-base font-bold text-center sm:text-left'>
+                <div class='text-iggy-green text-sm md:text-base font-bold text-center sm:text-left'>
                   Kate Berg
                 </div>
                 <p class='text-gray-500 text-sm md:text-sm text-center sm:text-left'>
@@ -78,7 +78,7 @@ export function Testimonials() {
               </div>
 
               <div>
-                <div class='text-indigo-500 text-sm md:text-base font-bold text-center sm:text-left'>
+                <div class='text-iggy-green text-sm md:text-base font-bold text-center sm:text-left'>
                   Greg Jackson
                 </div>
                 <p class='text-gray-500 text-sm md:text-sm text-center sm:text-left'>

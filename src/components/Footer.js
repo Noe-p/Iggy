@@ -6,31 +6,31 @@ export function Footer() {
           <nav class='flex flex-wrap justify-center md:justify-start gap-x-4 gap-y-2 md:gap-6 mb-4'>
             <a
               href='#'
-              class='text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100'
+              class='text-gray-500 hover:text-iggy-green active:text-iggy-green transition duration-100'
             >
               About
             </a>
             <a
               href='#'
-              class='text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100'
+              class='text-gray-500 hover:text-iggy-green active:text-iggy-green transition duration-100'
             >
               Investor Relations
             </a>
             <a
               href='#'
-              class='text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100'
+              class='text-gray-500 hover:text-iggy-green active:text-iggy-green transition duration-100'
             >
               Jobs
             </a>
             <a
               href='#'
-              class='text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100'
+              class='text-gray-500 hover:text-iggy-green active:text-iggy-green transition duration-100'
             >
               Press
             </a>
             <a
               href='#'
-              class='text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100'
+              class='text-gray-500 hover:text-iggy-green active:text-iggy-green transition duration-100'
             >
               Blog
             </a>
