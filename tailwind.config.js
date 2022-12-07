@@ -7,6 +7,9 @@ module.exports = {
         'iggy-green': '#3fba2d',
         'iggy-yellow': '#fbb03b',
       },
+      fontFamily: {
+        'gilroy' : ['Gilroy','sans-serif']
+      },
     },
   },
   plugins: [],
