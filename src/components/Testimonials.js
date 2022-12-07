@@ -1,6 +1,9 @@
+import { Title } from "./Title";
+
 export function Testimonials() {
   return (
-    <div class='max-w-screen-xl px-4 md:px-8 mx-auto lg:mb-32'>
+    <div class='max-w-screen-xl px-4 md:px-8 mx-auto lg:my-32'>
+      <Title anchor='avis'>Les problèmes de nos interviewés</Title>
       <div class='grid sm:grid-cols-2 lg:grid-cols-3 gap-y-10 sm:gap-y-12 lg:divide-x'>
         <div class='flex flex-col items-center gap-4 md:gap-6 sm:px-4 lg:px-8'>
           <div class='text-gray-600 text-center'>

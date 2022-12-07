@@ -12,9 +12,9 @@ export function Mockup2() {
               Intégrez des tâches récurrentes
             </h1>
 
-            <p class='text-gray-500 sm:text-lg mb-6 md:mb-8'>
+            <p class='text-gray-500 sm:text-lg mb-6 md:mb-8 text-left'>
               L’application vous permet de sélectionner vous même, les tâches
-              que vous souhaitez délégués à votre enfant. Nous vous suggérons
+              que vous souhaitez déléguer à votre enfant. Nous vous suggérons
               déjà des tâches pour rendre heureux votre compagnon, puis à vous
               de les sélectionner et de les personnaliser en ajoutant une
               récurrence. Vous pouvez également créer une tâche ponctuelle où
