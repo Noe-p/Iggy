@@ -2,11 +2,11 @@ import { Widget } from '@typeform/embed-react';
 
 import './App.css';
 import {
-  Footer,
-  Hero,
-  Header,
-  Mockup1,
   CallToAction,
+  Footer,
+  Header,
+  Hero,
+  Mockup1,
   Stat,
   Testimonials,
   Title,
@@ -22,7 +22,9 @@ function App() {
       <CallToAction />
       <Stat />
       <Testimonials />
-      <Widget id='LCa7UPQJ' height={400} disableScroll={true}></Widget>
+      <div id='typeform'>
+        <Widget id='LCa7UPQJ' height={400} disableScroll={true}></Widget>
+      </div>
       <Footer />
     </div>
   );

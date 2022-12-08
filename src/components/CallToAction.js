@@ -7,20 +7,24 @@ export function CallToAction() {
             <h2 class='text-white text-xl md:text-2xl font-bold'>
               Adoptez Iggy depuis différents stores !
             </h2>
-            <p class='text-gray-100'>Iggy est encore un peu timide et en cours de développement :)</p>
+            <p class='text-gray-100'>
+              Iggy est encore un peu timide et en cours de développement :)
+            </p>
           </div>
-          <div class="opacity-50 pointer-events-none">
-            <a
-              href='#'
-              class='inline-block w-40 mr-8'
-            >
-              <img src="/assets/google-play@2x.png" alt="Google Play" class="w-fit"/>
+          <div class=''>
+            <a href='#typeform' class='inline-block w-40 mr-8'>
+              <img
+                src='/assets/google-play@2x.png'
+                alt='Google Play'
+                class='w-fit'
+              />
             </a>
-            <a
-              href='#'
-              class='inline-block w-40'
-            >
-              <img src="/assets/app-store@2x.png" alt="AppStore" class="w-fit"/>
+            <a href='#typeform' class='inline-block w-40'>
+              <img
+                src='/assets/app-store@2x.png'
+                alt='AppStore'
+                class='w-fit'
+              />
             </a>
           </div>
         </div>
