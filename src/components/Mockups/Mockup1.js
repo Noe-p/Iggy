@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 export function Mockup1() {
-  const [imageUrl, setImageUrl] = useState('photo1');
+  const [imageUrl, setImageUrl] = useState('Mockup');
 
   // function changerImageUrl() {
   //   console.log(imageUrl);
@@ -30,23 +30,21 @@ export function Mockup1() {
       <div class=' max-w-screen-xl px-4 md:px-8 mx-auto'>
         <div class='grid md:grid-cols-2 gap-8 lg:gap-12'>
           <div>
-            <div class='h-32 overflow-hidden bg-gray-100 rounded-lg shadow-lg md:h-auto'>
-              <img
-                src={`/assets/${imageUrl}.avif`}
-                loading='lazy'
-                alt='Photo by Martin Sanchez'
-                class='object-cover object-center w-full h-full'
-                id='img'
-              />
-            </div>
+            <img
+              src={`/assets/${imageUrl}.png`}
+              loading='lazy'
+              alt='Photo by Martin Sanchez'
+              class='object-cover object-center w-full h-full'
+              id='img'
+            />
           </div>
 
           <div class='features bg-white rounded-xl shadow-sm'>
             <div
               className={`feature  p-5  ${
-                imageUrl === 'photo1' ? 'opacity-100' : 'opacity-30'
+                imageUrl === 'Mockup' ? 'opacity-100' : 'opacity-30'
               }`}
-              onMouseOver={() => setImageUrl('photo1')}
+              onMouseOver={() => setImageUrl('Mockup')}
             >
               <p class='text-iggy-green font-bold  text-center md:text-left'>
                 Personnalisation
@@ -64,9 +62,9 @@ export function Mockup1() {
 
             <div
               className={`feature mt-5 bg-white p-5 rounded-xl ${
-                imageUrl === 'photo2' ? 'opacity-100' : 'opacity-30'
+                imageUrl === 'Mockup' ? 'opacity-100' : 'opacity-30'
               }`}
-              onMouseOver={() => setImageUrl('photo2')}
+              onMouseOver={() => setImageUrl('Mockup')}
             >
               <p class='text-iggy-green font-bold text-center md:text-left'>
                 Automatisation
@@ -83,9 +81,9 @@ export function Mockup1() {
 
             <div
               className={`feature  mt-5 bg-white p-5 rounded-xl ${
-                imageUrl === 'photo3' ? 'opacity-100' : 'opacity-30'
+                imageUrl === 'Mockup' ? 'opacity-100' : 'opacity-30'
               }`}
-              onMouseOver={() => setImageUrl('photo3')}
+              onMouseOver={() => setImageUrl('Mockup')}
             >
               <p class='text-iggy-green font-bold text-center md:text-left'>
                 Sécurité
