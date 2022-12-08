@@ -1,9 +1,9 @@
-import { Title } from "./Title";
+import { Title } from './Title';
 
 export function Testimonials() {
   return (
     <div class='max-w-screen-xl px-4 md:px-8 mx-auto lg:my-32'>
-      <Title anchor='avis'>Les problèmes de nos interviewés</Title>
+      <Title anchor='avis'>Vos besoins</Title>
       <div class='grid sm:grid-cols-2 lg:grid-cols-3 gap-y-10 sm:gap-y-12 lg:divide-x'>
         <div class='flex flex-col items-center gap-4 md:gap-6 sm:px-4 lg:px-8'>
           <div class='text-gray-600 text-center'>
@@ -23,11 +23,8 @@ export function Testimonials() {
 
             <div>
               <div class='text-iggy-green text-sm md:text-base font-bold text-center sm:text-left'>
-                John McCulling
+                Arthur LAPIERRE
               </div>
-              <p class='text-gray-500 text-sm md:text-sm text-center sm:text-left'>
-                CEO / Datadrift
-              </p>
             </div>
           </div>
         </div>
@@ -50,11 +47,8 @@ export function Testimonials() {
 
             <div>
               <div class='text-iggy-green text-sm md:text-base font-bold text-center sm:text-left'>
-                Kate Berg
+                Alice DUBOIS
               </div>
-              <p class='text-gray-500 text-sm md:text-sm text-center sm:text-left'>
-                CFO / Dashdash
-              </p>
             </div>
           </div>
         </div>
@@ -77,11 +71,8 @@ export function Testimonials() {
 
             <div>
               <div class='text-iggy-green text-sm md:text-base font-bold text-center sm:text-left'>
-                Greg Jackson
+                Richard BEAULIEU
               </div>
-              <p class='text-gray-500 text-sm md:text-sm text-center sm:text-left'>
-                CTO / Uptime
-              </p>
             </div>
           </div>
         </div>

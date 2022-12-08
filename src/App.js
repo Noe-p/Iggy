@@ -1,19 +1,14 @@
 import { Sidetab, Widget } from '@typeform/embed-react';
 import 'swiper/css';
 
-import { Navigation, Pagination } from 'swiper';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-import { Swiper, SwiperSlide } from 'swiper/react';
 import './App.css';
 import {
-  About2,
   Footer,
   Header,
   Mockup1,
-  Mockup2,
-  Mockup3,
   Stat,
   Testimonials,
   Title,
@@ -23,7 +18,7 @@ function App() {
   return (
     <div className='App'>
       <Header />
-      <Title anchor='feature'>Fonctionnalités</Title>
+      <Title anchor='feature'>Iggy vous aides à ... </Title>
       <Mockup1 />
       {/*<Mockup2 />
        <Mockup3 />
@@ -37,7 +32,7 @@ function App() {
         </div>
       </div>
       */}
-      
+
       <Stat />
       <Testimonials />
       <Sidetab

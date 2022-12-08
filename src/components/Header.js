@@ -67,7 +67,7 @@ export function Header() {
               <div></div>
 
               <div class='sm:text-center lg:text-left lg:py-12 xl:py-24'>
-                <h1 class='text-gray-800 text-4xl sm:text-5xl md:text-6xl font-bold mb-4 md:mb-6 font-gilroy'>
+                <h1 class='text-gray-800 text-4xl font-dosis sm:text-5xl md:text-6xl font-bold mb-4 md:mb-6'>
                   Deviens son meilleur ami !
                 </h1>
 

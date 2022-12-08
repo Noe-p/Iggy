@@ -6,9 +6,13 @@ module.exports = {
       colors: {
         'iggy-green': '#3fba2d',
         'iggy-yellow': '#fbb03b',
+        'iggy-brown': '#F0CC93',
       },
+      backgroundImage: (theme) => ({
+        'pets-pattern': "url('/public/assets/pattern.svg')",
+      }),
       fontFamily: {
-        'gilroy' : ['Gilroy','sans-serif']
+        dosis: ['Dosis'],
       },
     },
   },

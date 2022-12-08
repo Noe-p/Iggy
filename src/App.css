@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -17,6 +18,7 @@ html {
   pointer-events: auto;
   transition: ease-in-out .3s;
 }
+
 .feature:hover{
   opacity: 1;
   transition: ease-in-out .3s;
