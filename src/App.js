@@ -17,7 +17,7 @@ function App() {
     <div className='App'>
       <Header />
       <Hero />
-      <Title anchor='feature'>Fonctionnalités</Title>
+      <Title anchor='feature'>Iggy vous aides à ... </Title>
       <Mockup1 />
       <CallToAction />
       <Stat />
