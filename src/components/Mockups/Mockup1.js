@@ -29,20 +29,26 @@ export function Mockup1() {
     <div class=' bg-white py-6 sm:py-8 bg-pets-pattern'>
       <div class=' max-w-screen-xl px-4 md:px-8 mx-auto'>
         <div class='grid md:grid-cols-2 gap-8 lg:gap-12'>
-          <div>
-            <img
-              src={`/assets/${imageUrl}.png`}
-              loading='lazy'
-              alt='Photo by Martin Sanchez'
-              class='object-cover object-center w-full h-full'
-              id='img'
-            />
-          </div>
+          <img
+            src={`/assets/${imageUrl}.png`}
+            loading='lazy'
+            alt='Photo by Martin Sanchez'
+            class='object-cover object-center w-full h-full hidden sm:block'
+            id='img'
+          />
+
+          <img
+            src={`/assets/mockup1.png`}
+            loading='lazy'
+            alt='Photo by Martin Sanchez'
+            class='object-cover object-center w-full h-full sm:hidden'
+            id='img'
+          />
 
           <div class='features bg-white rounded-xl shadow-sm'>
             <div
               className={`feature  p-5  ${
-                imageUrl === 'mockup1' ? 'opacity-100' : 'lg:opacity-30'
+                imageUrl === 'mockup1' ? 'opacity-100' : 'md:opacity-30'
               }`}
               onMouseOver={() => setImageUrl('mockup1')}
             >
@@ -60,9 +66,19 @@ export function Mockup1() {
               </p>
             </div>
 
+            <div>
+              <img
+                src={`/assets/mockup2.png`}
+                loading='lazy'
+                alt='Photo by Martin Sanchez'
+                class='object-cover object-center w-full h-full sm:hidden'
+                id='img'
+              />
+            </div>
+
             <div
               className={`feature mt-5 bg-white p-5 rounded-xl ${
-                imageUrl === 'mockup2' ? 'opacity-100' : 'lg:opacity-30'
+                imageUrl === 'mockup2' ? 'opacity-100' : 'md:md:opacity-30'
               }`}
               onMouseOver={() => setImageUrl('mockup2')}
             >
@@ -79,9 +95,19 @@ export function Mockup1() {
               </p>
             </div>
 
+            <div>
+              <img
+                src={`/assets/mockup3.png`}
+                loading='lazy'
+                alt='Photo by Martin Sanchez'
+                class='object-cover object-center w-full h-full sm:hidden'
+                id='img'
+              />
+            </div>
+
             <div
               className={`feature  mt-5 bg-white p-5 rounded-xl ${
-                imageUrl === 'mockup3' ? 'opacity-100' : 'lg:opacity-30'
+                imageUrl === 'mockup3' ? 'opacity-100' : 'md:md:opacity-30'
               }`}
               onMouseOver={() => setImageUrl('mockup3')}
             >
