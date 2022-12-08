@@ -1,4 +1,8 @@
+import useAnalyticsEventTracker from '../useAnalyticsEventTracker';
+
 export function CallToAction() {
+  const gaEventTracker = useAnalyticsEventTracker('Download App');
+
   return (
     <div class='bg-white py-6 sm:py-8 lg:py-12'>
       <div class='max-w-screen-2xl px-4 md:px-8 mx-auto'>
@@ -11,7 +15,7 @@ export function CallToAction() {
               Iggy est encore un peu timide et en cours de développement :)
             </p>
           </div>
-          <div class=''>
+          <div class='' onClick={() => gaEventTracker('download')}>
             <a href='#typeform' class='inline-block w-40 mr-8'>
               <img
                 src='/assets/google-play@2x.png'
