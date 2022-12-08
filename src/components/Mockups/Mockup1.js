@@ -71,7 +71,7 @@ export function Mockup1() {
               <p class='text-iggy-green font-bold text-center md:text-left'>
                 Automatisation
               </p>
-              <h3 class='text-gray-800 text-2xl sm:text-3xl font-bold text-center md:text-left mb-4 md:mb-6'>
+              <h3 class='text-gray-800 font-dosis text-2xl sm:text-3xl font-bold text-center md:text-left mb-4 md:mb-6'>
                 Intégrez des tâches récurrentes
               </h3>
               <p class='text-gray-500 sm:text-lg text-left'>
@@ -90,7 +90,7 @@ export function Mockup1() {
               <p class='text-iggy-green font-bold text-center md:text-left'>
                 Sécurité
               </p>
-              <h3 class='text-gray-800 text-2xl sm:text-3xl font-bold text-center md:text-left mb-4 md:mb-6'>
+              <h3 class='text-gray-800 font-dosis text-2xl sm:text-3xl font-bold text-center md:text-left mb-4 md:mb-6'>
                 Un contrôle de sûreté
               </h3>
               <p class='text-gray-500 sm:text-lg text-left'>

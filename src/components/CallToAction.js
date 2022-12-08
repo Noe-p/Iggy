@@ -2,25 +2,25 @@ export function CallToAction() {
   return (
     <div class='bg-white py-6 sm:py-8 lg:py-12'>
       <div class='max-w-screen-2xl px-4 md:px-8 mx-auto'>
-        <div class='flex flex-col sm:flex-row justify-between items-center bg-gray-100 rounded-lg gap-4 p-4 md:p-8'>
+        <div class='flex flex-col sm:flex-row justify-between items-center bg-iggy-green rounded-lg gap-4 p-4 md:p-8'>
           <div>
-            <h2 class='bg-iggy-green text-xl md:text-2xl font-bold'>
-              Comment trouvez-vous Iggy ?
+            <h2 class='text-white text-xl md:text-2xl font-bold'>
+              Adoptez Iggy depuis différents stores !
             </h2>
-            <p class='text-gray-600'>No Credit Card required</p>
+            <p class='text-gray-100'>Iggy est encore un peu timide et en cours de développement :)</p>
           </div>
-          <div>
+          <div class="opacity-50 pointer-events-none">
             <a
               href='#'
-              class='mr-10 inline-block bg-iggy-green hover:bg-iggy-green active:bg-iggy-green focus-visible:ring ring-indigo-300 text-white text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-8 py-3'
+              class='inline-block w-40 mr-8'
             >
-              Intéressant 🤩
+              <img src="/assets/google-play@2x.png" alt="Google Play" class="w-fit"/>
             </a>
             <a
               href='#'
-              class='inline-block bg-iggy-green hover:bg-iggy-green active:bg-iggy-green focus-visible:ring ring-indigo-300 text-white text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-8 py-3'
+              class='inline-block w-40'
             >
-              Pas ouf 😐
+              <img src="/assets/app-store@2x.png" alt="AppStore" class="w-fit"/>
             </a>
           </div>
         </div>
