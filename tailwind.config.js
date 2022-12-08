@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'iggy-green': '#3fba2d',
+        'iggy-green': '#0D9962',
         'iggy-yellow': '#fbb03b',
       },
       fontFamily: {
