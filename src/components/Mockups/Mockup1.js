@@ -42,7 +42,7 @@ export function Mockup1() {
           <div class='features bg-white rounded-xl shadow-sm'>
             <div
               className={`feature  p-5  ${
-                imageUrl === 'mockup1' ? 'opacity-100' : 'opacity-30'
+                imageUrl === 'mockup1' ? 'opacity-100' : 'lg:opacity-30'
               }`}
               onMouseOver={() => setImageUrl('mockup1')}
             >
@@ -62,7 +62,7 @@ export function Mockup1() {
 
             <div
               className={`feature mt-5 bg-white p-5 rounded-xl ${
-                imageUrl === 'mockup2' ? 'opacity-100' : 'opacity-30'
+                imageUrl === 'mockup2' ? 'opacity-100' : 'lg:opacity-30'
               }`}
               onMouseOver={() => setImageUrl('mockup2')}
             >
@@ -72,7 +72,7 @@ export function Mockup1() {
               <h3 class='text-gray-800 font-dosis text-2xl sm:text-3xl font-bold text-center md:text-left mb-4 md:mb-6'>
                 Intégrez des tâches récurrentes
               </h3>
-              <p class='text-gray-500 sm:text-lg text-left'>
+              <p class='text-gray-500 sm:text-lg md:text-left'>
                 Choisissez les tâches que vous souhaitez déléguer à votre
                 enfant. Nous vous suggérons les tâches basiques pour séduire
                 tout compagnon, à vous de les sélectionner et les personnaliser.
@@ -81,7 +81,7 @@ export function Mockup1() {
 
             <div
               className={`feature  mt-5 bg-white p-5 rounded-xl ${
-                imageUrl === 'mockup3' ? 'opacity-100' : 'opacity-30'
+                imageUrl === 'mockup3' ? 'opacity-100' : 'lg:opacity-30'
               }`}
               onMouseOver={() => setImageUrl('mockup3')}
             >
@@ -91,7 +91,7 @@ export function Mockup1() {
               <h3 class='text-gray-800 font-dosis text-2xl sm:text-3xl font-bold text-center md:text-left mb-4 md:mb-6'>
                 Un contrôle de sûreté
               </h3>
-              <p class='text-gray-500 sm:text-lg text-left'>
+              <p class='text-gray-500 sm:text-lg md:text-left'>
                 Afin de s'assurer que tout va bien à la maison, en tant que
                 parent, les actions entreprises par vos enfants vous sont
                 notifiées.
