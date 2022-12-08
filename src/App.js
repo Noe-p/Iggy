@@ -1,6 +1,7 @@
 import { Widget } from '@typeform/embed-react';
+import TagManager from 'react-gtm-module'
 
-import ReactGA from 'react-ga';
+
 import './App.css';
 import {
   CallToAction,
@@ -12,8 +13,12 @@ import {
   Testimonials,
   Title,
 } from './components';
-const TRACKING_ID = 'G-QKKQLNH826'; // OUR_TRACKING_ID
-ReactGA.initialize(TRACKING_ID);
+
+const tagManagerArgs = {
+  gtmId: 'GTM-NJ8K5H3'
+}
+
+TagManager.initialize(tagManagerArgs)
 
 function App() {
   return (
