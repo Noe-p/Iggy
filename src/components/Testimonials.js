@@ -7,14 +7,14 @@ export function Testimonials() {
       <div class='grid sm:grid-cols-2 lg:grid-cols-3 gap-y-10 sm:gap-y-12 lg:divide-x'>
         <div class='flex flex-col items-center gap-4 md:gap-6 sm:px-4 lg:px-8'>
           <div class='text-gray-600 text-center'>
-            “Mon fils a 8 ans, il adore notre chien mais je ne peux pas encore
-            lui confier certaines tâches”
+            "J'aimerais que mes enfants s'occupe du chat sans que j'ai à y
+            penser"
           </div>
 
           <div class='flex flex-col sm:flex-row items-center gap-2 md:gap-3'>
             <div class='w-12 md:w-14 h-12 md:h-14 bg-gray-100 rounded-full overflow-hidden shadow-lg'>
               <img
-                src='https://images.unsplash.com/photo-1567515004624-219c11d31f2e??auto=format&q=75&fit=crop&w=112'
+                src='/assets/karine.jpeg'
                 loading='lazy'
                 alt='Photo by Radu Florin'
                 class='w-full h-full object-cover object-center'
@@ -23,22 +23,25 @@ export function Testimonials() {
 
             <div>
               <div class='text-iggy-green text-sm md:text-base font-bold text-center sm:text-left'>
-                Arthur LAPIERRE
+                Karine Dubois
               </div>
+              <p class='text-gray-500 text-sm md:text-sm text-center sm:text-left'>
+                Cheffe de projet
+              </p>
             </div>
           </div>
         </div>
 
         <div class='flex flex-col items-center gap-4 md:gap-6 sm:px-4 lg:px-8'>
           <div class='text-gray-600 text-center'>
-            “This is a section of some simple filler text, also known as
-            placeholder text.”
+            "Notre chien est très expressif mais nous ne comprenons pas toujours
+            ses expressions"
           </div>
 
           <div class='flex flex-col sm:flex-row items-center gap-2 md:gap-3'>
             <div class='w-12 md:w-14 h-12 md:h-14 bg-gray-100 rounded-full overflow-hidden shadow-lg'>
               <img
-                src='https://images.unsplash.com/photo-1532073150508-0c1df022bdd1?auto=format&q=75&fit=crop&w=112'
+                src='/assets/richard.jpeg'
                 loading='lazy'
                 alt='Photo by christian ferrer'
                 class='w-full h-full object-cover object-center'
@@ -47,22 +50,25 @@ export function Testimonials() {
 
             <div>
               <div class='text-iggy-green text-sm md:text-base font-bold text-center sm:text-left'>
-                Alice DUBOIS
+                Richard Beaulieu
               </div>
+              <p class='text-gray-500 text-sm md:text-sm text-center sm:text-left'>
+                Père de famille
+              </p>
             </div>
           </div>
         </div>
 
         <div class='flex flex-col items-center gap-4 md:gap-6 sm:px-4 lg:px-8'>
           <div class='text-gray-600 text-center'>
-            “This is a section of some simple filler text, also known as
-            placeholder text.”
+            “Mon fils a 8 ans, il adore notre chien mais je ne peux pas encore
+            lui confier certaines tâches”
           </div>
 
           <div class='flex flex-col sm:flex-row items-center gap-2 md:gap-3'>
             <div class='w-12 md:w-14 h-12 md:h-14 bg-gray-100 rounded-full overflow-hidden shadow-lg'>
               <img
-                src='https://images.unsplash.com/photo-1463453091185-61582044d556?auto=format&q=75&fit=crop&w=500'
+                src='/assets/arthur.jpeg'
                 loading='lazy'
                 alt='Photo by Ayo Ogunseinde'
                 class='w-full h-full object-cover object-center'
@@ -71,8 +77,11 @@ export function Testimonials() {
 
             <div>
               <div class='text-iggy-green text-sm md:text-base font-bold text-center sm:text-left'>
-                Richard BEAULIEU
+                Arthur Lapierre
               </div>
+              <p class='text-gray-500 text-sm md:text-sm text-center sm:text-left'>
+                Professeur
+              </p>
             </div>
           </div>
         </div>

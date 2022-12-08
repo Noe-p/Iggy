@@ -75,7 +75,7 @@ export function Mockup1() {
                 Intégrez des tâches récurrentes
               </h3>
               <p class='text-gray-500 sm:text-lg text-left'>
-                Choisissez les tâches que vous souhaitez délégués à votre
+                Choisissez les tâches que vous souhaitez déléguer à votre
                 enfant. Nous vous suggérons les tâches basiques pour séduire
                 tout compagnon, à vous de les sélectionner et les personnaliser.
               </p>
