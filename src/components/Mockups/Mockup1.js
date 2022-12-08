@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 export function Mockup1() {
-  const [imageUrl, setImageUrl] = useState('Mockup');
+  const [imageUrl, setImageUrl] = useState('mockup1');
 
   // function changerImageUrl() {
   //   console.log(imageUrl);
@@ -42,9 +42,9 @@ export function Mockup1() {
           <div class='features bg-white rounded-xl shadow-sm'>
             <div
               className={`feature  p-5  ${
-                imageUrl === 'Mockup' ? 'opacity-100' : 'opacity-30'
+                imageUrl === 'mockup1' ? 'opacity-100' : 'opacity-30'
               }`}
-              onMouseOver={() => setImageUrl('Mockup')}
+              onMouseOver={() => setImageUrl('mockup1')}
             >
               <p class='text-iggy-green font-bold  text-center md:text-left'>
                 Personnalisation
@@ -62,9 +62,9 @@ export function Mockup1() {
 
             <div
               className={`feature mt-5 bg-white p-5 rounded-xl ${
-                imageUrl === 'Mockup' ? 'opacity-100' : 'opacity-30'
+                imageUrl === 'mockup2' ? 'opacity-100' : 'opacity-30'
               }`}
-              onMouseOver={() => setImageUrl('Mockup')}
+              onMouseOver={() => setImageUrl('mockup2')}
             >
               <p class='text-iggy-green font-bold text-center md:text-left'>
                 Automatisation
@@ -81,9 +81,9 @@ export function Mockup1() {
 
             <div
               className={`feature  mt-5 bg-white p-5 rounded-xl ${
-                imageUrl === 'Mockup' ? 'opacity-100' : 'opacity-30'
+                imageUrl === 'mockup3' ? 'opacity-100' : 'opacity-30'
               }`}
-              onMouseOver={() => setImageUrl('Mockup')}
+              onMouseOver={() => setImageUrl('mockup3')}
             >
               <p class='text-iggy-green font-bold text-center md:text-left'>
                 Sécurité
